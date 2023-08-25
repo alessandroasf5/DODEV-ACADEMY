@@ -1,0 +1,1 @@
+console.log('agora ta direto no arquivo')
