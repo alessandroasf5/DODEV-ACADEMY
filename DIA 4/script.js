@@ -1,23 +1,12 @@
-console.log("=============");
-console.log("ESCOPO");
-console.log("=============");
-
 let idade = Number(prompt("Insira sua idade"))
+let nome = prompt("Insira seu o nome")
 // == igual | != diferente | < menor que | > maior que | <= menor ou igual | >= maior ou igual 
 // === igual ao valor e o tipo da variável | !== é diferente o valor e o tipo da variável 
 
-if (idade <= 10) {
-    console.log(idade);
-    let dentroEscopo = "Giovanni"
-    console.log(dentroEscopo);
-    console.log("Voce tem menos ou 10 anos");
-    if (true) {
-    console.log("estou no terceiro escopo");
-    console.log(dentroEscopo);        
-    }
-} else {
-    console.log("Voce tem mais que 10 anos");
+if (idade === 23 && nome === "Giovanni") {
+    console.log("Seu nome é Giovanni e você tem 23 anos");
+} else if (idade === 23 || nome === "Giovanni") {
+    console.log("Ou você tem 23 anos OU seu nome é Giovanni");
+}else {
+    console.log("Seu nome não é Giovanni e você nao tem 23 anos");
 }
-
-console.log("SAI DO ESCOPO  DO IF");
-
