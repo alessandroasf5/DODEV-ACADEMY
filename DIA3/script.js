@@ -53,11 +53,12 @@ console.log(entradaDoUsuarioEmInt);
 
 
 
-let entradaDoUsuarioEmInt = prompt()
+let entradaDoUsuarioTeste = prompt()
 
-if ( entradaDoUsuarioEmInt > 10) { 
-    console.log("Numero Grande"); 
-
-} else { console.log("Numero Pequeno");
-    
+if ( entradaDoUsuarioTeste > 10) { 
+    console.log("Numero Grande") 
 }
+    
+    else { 
+        console.log("Numero Pequeno")
+    };
